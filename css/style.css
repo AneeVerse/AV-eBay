@@ -23469,13 +23469,39 @@ body.loaded .page-loading {
   padding: 5px 15px;
 }
 .messonry-button button span.filter-text {
-  font-weight: 600;
-  line-height: 1.58;
+  align-items: center;
+  appearance: none;
+  background-color: #ebfafe;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #3c4043;
+  cursor: pointer;
+  display: inline-flex;
+  fill: currentcolor;
+  font-family: "Google Sans",Roboto,Arial,sans-serif;
   font-size: 14px;
-  color: #333333;
-  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-weight: 500;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: .25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 2px 24px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: box-shadow 280ms cubic-bezier(.4, 0, .2, 1),opacity 15ms linear 30ms,transform 270ms cubic-bezier(0, 0, .2, 1) 0ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+  will-change: transform,opacity;
+  z-index: 0;
 }
+
 .messonry-button button span.filter-counter {
   position: absolute;
   top: 0;
@@ -32760,7 +32786,8 @@ body.template-color-1 .messonry-button button:hover span.filter-text {
   color: #0038E3;
 }
 body.template-color-1 .messonry-button button.is-checked span.filter-text {
-  color: #0038E3;
+  outline: none;
+  border: 2px solid #4285f4;
 }
 body.template-color-1 .portfolio.portfolio_style--1 .port-overlay-info {
   background-color: #0038E3;
@@ -52309,7 +52336,7 @@ Metro Grid Style 3
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top center;
-  background-color: #e9eef0;
+  background-color: #073742;
 }
 
 .pv-single-feature {
@@ -52348,7 +52375,7 @@ Metro Grid Style 3
 preview Area 
 =========================*/
 .pv-footer-area {
-  background-color: #e63a65;
+  background-color: #073742;
   background-image: url(../../img/preview-image/brook-landing-footer-bg-image-01.png);
   background-repeat: no-repeat;
   background-position: bottom left;
