@@ -30134,6 +30134,7 @@ Header Font Family
 }
 .popup-mobile-menu-wrapper .popup-mobile-manu .inner {
   -webkit-transform: none;
+
   transform: none;
 }
 
@@ -30153,7 +30154,7 @@ Header Font Family
   z-index: 99999;
 }
 .popup-mobile-manu .inner {
-  background: #000000;
+  background: #ebfafe;
   position: relative;
   width: 400px;
   max-width: 80%;
